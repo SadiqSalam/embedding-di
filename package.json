@@ -1,0 +1,17 @@
+{
+  "name": "embedding-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "generate-embeddings.ts",
+  "scripts": {
+    "generate": "tsx generate-embeddings.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.42.3",
+    "dotenv": "^16.4.5",
+    "openai": "^4.38.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0"
+  }
+}
