@@ -4,7 +4,7 @@
   "type": "module",
   "main": "generate-embeddings.ts",
   "scripts": {
-    "generate": "tsx generate-embeddings.ts"
+    "generate": "tsx src/lib/generate-embeddings.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.42.3",
